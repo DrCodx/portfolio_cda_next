@@ -28,7 +28,8 @@ git commit -m "Premier commit !" # Ca va commit (sauvegarder) tout les élément
 Dans Github, on va dans -> Repository -> New Repository -> On met le nom du repository et on le créer
 Ensuite, on recopie le lien ssh du repository
 
-### Etape 5 : On génère une clé SSH sur notre machine local
+### Etape 5 : On génère une clé SSH sur notre machine local avec le command : ssh-keygen
+
 Une clé ssh sert à prouver son identité. On va s'en servir pour s'authentifier à Github car c'est un serveur distant.
 ```bash
 Generating public/private rsa key pair.
